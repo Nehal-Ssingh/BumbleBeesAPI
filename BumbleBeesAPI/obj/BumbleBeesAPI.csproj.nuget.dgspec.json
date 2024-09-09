@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\BumbleBeesAPI.csproj": {}
+    "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\BumbleBeesAPI.csproj": {
+    "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
         "projectName": "BumbleBeesAPI",
-        "projectPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\User\\OneDrive\\Desktop\\vs3\\NuGetPackages"

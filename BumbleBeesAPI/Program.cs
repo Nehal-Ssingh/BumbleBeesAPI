@@ -8,8 +8,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+// Configure the database context with the connection string from environment variables
 builder.Services.AddDbContext<BumbleBeesContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("BumbleBeesDb")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add Swagger for API documentation
 builder.Services.AddEndpointsApiExplorer();
@@ -25,9 +27,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = "yourIssuer",  // Replace with your issuer
-            ValidAudience = "yourAudience", // Replace with your audience
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("yourSecretKey")) // Replace with your secret key
+            ValidIssuer = Environment.GetEnvironmentVariable("JWT_ISSUER"),  // Use environment variable
+            ValidAudience = Environment.GetEnvironmentVariable("JWT_AUDIENCE"), // Use environment variable
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Environment.GetEnvironmentVariable("JWT_SECRET_KEY"))) // Use environment variable
         };
     });
 
