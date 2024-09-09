@@ -1,0 +1,6 @@
+@BumbleBeesAPI_HostAddress = http://localhost:5155
+
+GET {{BumbleBeesAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
