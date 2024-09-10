@@ -1,46 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\models\\organisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\organisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\models\\bumblebeescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\models\\bumblebeescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\bumblebeescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\models\\organisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\organisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|c:\\users\\user\\source\\repos\\bumblebeesapi_ameerandnehal\\bumblebeesapi\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7A8D43-1137-4A56-B180-E3F8C256A7D8}|BumbleBeesAPI.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,11 +74,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Organisation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\Organisation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\Organisation.cs",
               "RelativeDocumentMoniker": "Models\\Organisation.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\Organisation.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\Organisation.cs",
               "RelativeToolTip": "Models\\Organisation.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAzwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,24 +87,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AdminUsersController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Controllers\\AdminUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Controllers\\AdminUsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminUsersController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Controllers\\AdminUsersController.cs*",
-              "RelativeToolTip": "Controllers\\AdminUsersController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Controllers\\AdminUsersController.cs",
+              "RelativeToolTip": "Controllers\\AdminUsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T17:27:48.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\UserProfile.cs",
               "RelativeDocumentMoniker": "Models\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\UserProfile.cs",
               "RelativeToolTip": "Models\\UserProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,11 +113,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AdminUser.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\AdminUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\AdminUser.cs",
               "RelativeDocumentMoniker": "Models\\AdminUser.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\AdminUser.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\AdminUser.cs",
               "RelativeToolTip": "Models\\AdminUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -126,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Controllers\\UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Controllers\\UserProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserProfileController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Controllers\\UserProfileController.cs",
               "RelativeToolTip": "Controllers\\UserProfileController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAGUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -152,24 +152,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwCgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T13:24:58.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\Company.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\Company.cs",
               "RelativeDocumentMoniker": "Models\\Company.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\Company.cs",
               "RelativeToolTip": "Models\\Company.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -178,26 +178,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "BumbleBeesContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\BumbleBeesContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\BumbleBeesContext.cs",
               "RelativeDocumentMoniker": "Models\\BumbleBeesContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\Models\\BumbleBeesContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\Models\\BumbleBeesContext.cs",
               "RelativeToolTip": "Models\\BumbleBeesContext.cs",
-              "ViewState": "AQIAAAEBAAAAAAAAAAAAABYBAAAAAAAA",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAAAAwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T13:22:54.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-08T13:13:51.833Z",
               "EditorCaption": ""

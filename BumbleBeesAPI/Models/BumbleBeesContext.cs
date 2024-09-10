@@ -35,19 +35,17 @@ public partial class BumbleBeesContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=NEHALS-DESKTOP\\MSSQLSERVER01;Initial Catalog=BumbleBees;Integrated Security=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=NEHALS-DESKTOP\\MSSQLSERVER01;Initial Catalog=BumbleBees;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AdminTask>(entity =>
         {
-            entity.HasKey(e => e.TaskId).HasName("PK__Admin_Ta__716F4ACDF965D412");
+            entity.HasKey(e => e.TaskId).HasName("PK__Admin_Ta__716F4ACDDBC7E108");
 
             entity.ToTable("Admin_Task");
 
-            entity.Property(e => e.TaskId)
-                .ValueGeneratedNever()
-                .HasColumnName("Task_ID");
+            entity.Property(e => e.TaskId).HasColumnName("Task_ID");
             entity.Property(e => e.AdminId).HasColumnName("Admin_ID");
             entity.Property(e => e.TaskDate).HasColumnName("Task_Date");
             entity.Property(e => e.TaskName)
@@ -62,13 +60,11 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<AdminUser>(entity =>
         {
-            entity.HasKey(e => e.AdminId).HasName("PK__Admin_Us__4A30011787CD70AB");
+            entity.HasKey(e => e.AdminId).HasName("PK__Admin_Us__4A300117903E79CA");
 
             entity.ToTable("Admin_User");
 
-            entity.Property(e => e.AdminId)
-                .ValueGeneratedNever()
-                .HasColumnName("Admin_ID");
+            entity.Property(e => e.AdminId).HasColumnName("Admin_ID");
             entity.Property(e => e.CertifiedId).HasColumnName("Certified_ID");
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
@@ -85,7 +81,7 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryName).HasName("PK__Category__B35EB4182D25B286");
+            entity.HasKey(e => e.CategoryName).HasName("PK__Category__B35EB4181CC9F195");
 
             entity.ToTable("Category");
 
@@ -97,11 +93,11 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<Company>(entity =>
         {
-            entity.HasKey(e => e.CompanyRegNo).HasName("PK__Company__16298F5CC939C07F");
+            entity.HasKey(e => e.CompanyRegNo).HasName("PK__Company__16298F5C8C0DDC0B");
 
             entity.ToTable("Company");
 
-            entity.HasIndex(e => e.Fuuid, "UQ__Company__EDE3AC3C9BD8FC7E").IsUnique();
+            entity.HasIndex(e => e.Fuuid, "UQ__Company__EDE3AC3C9B6E097C").IsUnique();
 
             entity.Property(e => e.CompanyRegNo)
                 .HasMaxLength(50)
@@ -131,13 +127,11 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<Document>(entity =>
         {
-            entity.HasKey(e => e.DocumentId).HasName("PK__Document__513A04756B4F9F5B");
+            entity.HasKey(e => e.DocumentId).HasName("PK__Document__513A0475687C1284");
 
             entity.ToTable("Document");
 
-            entity.Property(e => e.DocumentId)
-                .ValueGeneratedNever()
-                .HasColumnName("Document_ID");
+            entity.Property(e => e.DocumentId).HasColumnName("Document_ID");
             entity.Property(e => e.CategoryName)
                 .HasMaxLength(100)
                 .IsUnicode(false)
@@ -163,13 +157,11 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<Donation>(entity =>
         {
-            entity.HasKey(e => e.DonationId).HasName("PK__Donation__E3A7BA9216213736");
+            entity.HasKey(e => e.DonationId).HasName("PK__Donation__E3A7BA92E6954791");
 
             entity.ToTable("Donation");
 
-            entity.Property(e => e.DonationId)
-                .ValueGeneratedNever()
-                .HasColumnName("Donation_ID");
+            entity.Property(e => e.DonationId).HasColumnName("Donation_ID");
             entity.Property(e => e.Amount).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.CompanyRegNo)
                 .HasMaxLength(50)
@@ -184,11 +176,11 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<Organisation>(entity =>
         {
-            entity.HasKey(e => e.OrganisationRegNo).HasName("PK__Organisa__1ACE868EB68782C9");
+            entity.HasKey(e => e.OrganisationRegNo).HasName("PK__Organisa__1ACE868EF6701205");
 
             entity.ToTable("Organisation");
 
-            entity.HasIndex(e => e.Fuuid, "UQ__Organisa__EDE3AC3C4522187E").IsUnique();
+            entity.HasIndex(e => e.Fuuid, "UQ__Organisa__EDE3AC3CCC1B5AAA").IsUnique();
 
             entity.Property(e => e.OrganisationRegNo)
                 .HasMaxLength(50)
@@ -225,13 +217,11 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<Project>(entity =>
         {
-            entity.HasKey(e => e.ProjectId).HasName("PK__Project__1CB92FE30C20BDF4");
+            entity.HasKey(e => e.ProjectId).HasName("PK__Project__1CB92FE3D870398D");
 
             entity.ToTable("Project");
 
-            entity.Property(e => e.ProjectId)
-                .ValueGeneratedNever()
-                .HasColumnName("Project_ID");
+            entity.Property(e => e.ProjectId).HasColumnName("Project_ID");
             entity.Property(e => e.Amount).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.ImageUrl)
                 .HasMaxLength(255)
@@ -258,7 +248,7 @@ public partial class BumbleBeesContext : DbContext
 
         modelBuilder.Entity<UserProfile>(entity =>
         {
-            entity.HasKey(e => e.Fuuid).HasName("PK__User_Pro__EDE3AC3DA49EB555");
+            entity.HasKey(e => e.Fuuid).HasName("PK__User_Pro__EDE3AC3D65E79959");
 
             entity.ToTable("User_Profile");
 
