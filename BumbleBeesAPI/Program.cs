@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using BumbleBeesAPI.Models;
+using Microsoft.Extensions.Configuration;
+using Microsoft.OpenApi.Models;
 
 namespace BumbleBeesAPI
 {
@@ -36,17 +38,23 @@ namespace BumbleBeesAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // Add your DbContext here (replace with your DbContext class)
-            services.AddDbContext<BumbleBeesContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            // Add Swagger service
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "BumbleBees API", Version = "v1" });
+            });
 
-            // Configure JSON options to handle circular references
+            // Add your DbContext here
+            services.AddDbContext<BumbleBeesContext>(options =>
+                options.UseSqlServer(Environment.GetEnvironmentVariable("DEFAULT_CONNECTION")));
+
+            // Configure JSON options
             services.AddControllers()
                 .AddJsonOptions(options =>
                 {
-                    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-                    options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
-                    options.JsonSerializerOptions.WriteIndented = true; // Optional: for better readability of JSON output
+                    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+                    options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+                    options.JsonSerializerOptions.WriteIndented = true;
                 });
 
             services.AddRazorPages();
@@ -65,11 +73,21 @@ namespace BumbleBeesAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseStaticFiles(); // Ensures static files like Swagger UI are served
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            // Enable Swagger middleware
+            app.UseSwagger();
+
+            // Enable Swagger UI
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "BumbleBees API v1");
+                c.RoutePrefix = string.Empty; // To serve Swagger UI at root
+            });
 
             app.UseEndpoints(endpoints =>
             {
@@ -80,4 +98,5 @@ namespace BumbleBeesAPI
             });
         }
     }
+
 }

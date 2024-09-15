@@ -4243,23 +4243,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Users\\User\\OneDrive\\Desktop\\vs3\\NuGetPackages": {}
+    "C:\\Users\\ameer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ameer\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
       "projectName": "BumbleBeesAPI",
-      "projectPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\obj\\",
+      "projectPath": "C:\\Users\\ameer\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\BumbleBeesAPI.csproj",
+      "packagesPath": "C:\\Users\\ameer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ameer\\source\\repos\\BumbleBeesAPI_AmeerandNehal\\BumbleBeesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\User\\OneDrive\\Desktop\\vs3\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ameer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

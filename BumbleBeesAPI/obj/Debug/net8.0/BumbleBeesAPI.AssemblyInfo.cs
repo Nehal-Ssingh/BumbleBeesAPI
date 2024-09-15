@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BumbleBeesAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5c712093e908a936a5662ed2cd2fa6abcd6fe48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0a10c58f8d029cd80708b6a5bbacd42aaa325ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("BumbleBeesAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BumbleBeesAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
